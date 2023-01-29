@@ -1,0 +1,35 @@
+
+.mainLoginInput::-webkit-input-placeholder { 
+  font-family: FontAwesome;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 10px;
+  padding-top: 2px;
+
+  }
+
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  border-radius: 10px;
+  height:35px ;
+  width:250px;
+
+}
+
+.has-search .form-control-feedback {
+  font-size:20px;
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+ 
+  color: #aaa;
+margin:3px;
+}
